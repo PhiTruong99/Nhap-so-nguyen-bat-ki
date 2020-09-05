@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nhập số nguyên bất kì</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            //Nhập một số nguyên bất kỳ và in kết quả ra màn hình
+            //để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0
+            var n;
+            n = parseInt(prompt("Nhập số nguyên n: "));
+            while(n>0){
+                alert(n +">0");
+                n = parseInt(prompt("Nhập số nguyên n: "));
+            }while(n<0){
+                alert(n +"<0");
+                n = parseInt(prompt("Nhập số nguyên n: "));
+            }
+        </script>
+    </body>
+</html>
